@@ -1,0 +1,10 @@
+git branch #branch list check
+git branch -v #branch plug & commit script
+git branch 생성브런치명 #branch create
+git branch -D 삭제브런치명 #branch delete
+git branch -m 변경전이름 변경후이름 #branch rename
+git branch checkout 이동할브런치 #branch replece
+
+#create branch and checkout branch
+git checkout -b 브런치명
+git branch
