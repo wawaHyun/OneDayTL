@@ -1,0 +1,12 @@
+git branch
+git checkout dev-1 #dev-1로 이동
+#현재 파일은 항상 최신의 것이어야만 merge가능하기 때문에
+#git pull 한번 해줄것. 
+
+#code 열어서 내용확인
+git branch -v
+
+git merge main
+# dev-1을 main과 합치기
+
+git push

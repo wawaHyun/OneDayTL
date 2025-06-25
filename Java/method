@@ -1,0 +1,11 @@
+기능
+
+public class auth{
+	String name;
+	int phone;
+	String job;
+
+	String authUs(String name){
+		System.out.println(name);
+		}
+}
