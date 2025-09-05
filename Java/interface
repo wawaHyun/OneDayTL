@@ -1,0 +1,16 @@
+극단적으로 동일한 목적 하에 동일한 기능을 수행하게끔 강제하는 역할.
+java의 다형성을 극대화하여 개발코드 수정을 줄이고 유지보수성을 높이기 위해 사용.
+Service를 interface로 만들고, serviceImpl로 메소드 구현함.
+
+//service interface에 login 선언
+public interface UserService {
+	String login(String name);
+}
+
+//serviceImpl에서 service impl 받음
+public class UserServiceImpl implements UserService{
+	@Override
+	public String login(String name){ //service의 field
+	return "login success";
+	}
+}

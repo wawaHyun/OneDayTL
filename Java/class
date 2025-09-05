@@ -1,0 +1,8 @@
+객체의 설계도.
+구조나 기능등을 명세.
+
+public class User{
+String name;
+int phone;
+String job;
+}
